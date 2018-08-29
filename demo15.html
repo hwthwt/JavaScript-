@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>do while循环</title>
+  <script>
+    var a = 1;
+    do {
+      alert("hello world!");
+      a ++;
+    } while (a <= 5); //至少执行循环体1次
+
+    var b = 5;
+    var sum = 1;
+    do {
+      sum = sum * b;
+      b --;
+    } while (b >= 1);
+    alert("sum=" + sum); //先执行循环体，再判断循环条件
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
