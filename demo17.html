@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>while 循环</title>
+</head>
+<body>
+    <script>
+        // for(var x=1;x<=6;x++){
+        //     for(var y=1;y<=6;y++){
+        //         document.write("*");
+        //     }
+        //     document.write("<br />");
+        // }
+        for(var j = 1;j <= 6;j++){
+            for(var i = 1; i <= j; i++)
+            {
+                document.write("*");
+            }
+            document.write("<br />");
+        }
+
+        for(var j = 1;j<=6;j++)
+        {
+            for(var i = 6;i>=j;i--)
+            {
+                document.write("*");
+            }
+            document.write("<br />");
+        }
+
+        var i = 1;
+        while (i<=6)
+        {
+            var j = 1;
+            while (j<=i)
+            {
+                document.write("*"+" ");
+                j++;
+            }
+            document.write("<br />");
+            i++;
+        }
+
+        for(var i= 1;i<=6;i++)
+        {
+            for(var x = 6; x>=i; x--)
+            {
+                document.write("&nbsp&nbsp");
+            }
+            for(var j =1;j<=i;j++)
+            {
+                document.write("*&nbsp&nbsp&nbsp");
+            }
+            document.write("<br />");
+        }
+
+        for(let i = 1;i<=5;i++)
+        {
+
+            for(let j = 1;j<=5;j++)
+            {
+                document.write(j);
+                if(j%2==0)
+                {
+                    continue;
+                }
+            }
+        }
+
+        flag:
+        for(var i = 1; i<=5; i++)
+        {
+            for(var j = 1;j<=5;j++)
+            {
+                if(i%2==0)
+                {
+                    break flag; //结束的是外层循环
+
+                }
+                alert("j=" + j);
+            }
+            document.write(i);
+
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数的参数及返回值</title>
+    <script>
+        function sum(num1,num2) {
+            var result = num1 + num2;
+            alert("result=" + result);
+        }
+        sum(10,20);
+
+        function compare(num3,num4) {
+            if(num3>num4)
+            {
+                return num3;
+            }
+            else if(num4>num3)
+            {
+                return num4;
+            }
+            else
+            {
+                return num4;
+            }
+        }
+        var com = compare(2,3);
+        alert(com);
+
+        function  getBig(num1,num2){
+            var num = num1>num2?num1: num1<num2? num2: "两数相等";
+            return num ;
+        }
+        var big = getBig(3,3);
+        alert(big);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
