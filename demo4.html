@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>算术运算符</title>
+  <script>
+    var m = 3,n;
+    n = m++;//++在后面先赋值再加1
+    alert("m="+ m + "," + "n=" + n);
+    n = ++m;//++再前面先加1再赋值
+    alert("m="+ m + "," + "n=" + n);
+
+    var x = 4,y = 5;
+    var z = x++ + y++;
+    alert("x="+x);//x=5
+    alert("y="+y);//y=6
+    alert("z="+z);//z=9
+
+    var a = 3;
+    var b = a++ + ++a + a++;
+    alert("a=" + a +","+ "b=" + b);//a=6,b=13
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
