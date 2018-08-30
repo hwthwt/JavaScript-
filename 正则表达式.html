@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>正则表达式：专门针对字符串</title>
+  <script>
+    //验证QQ号是否合法：5-15位，不能以0开头，全是数字
+    var qq ="0232545";
+    if(qq.length>=5 && qq.length<=15){
+      if(qq.charCodeAt(0) != 48){
+        if(!(isNaN(qq))){
+          alert('QQ号符合要求！');
+        }
+        else {
+          alert('必须全为数字');
+        }
+      }
+      else{
+        alert("不能以0开头");
+      }
+    }
+    else {
+      alert("长度不符合要求！");
+    }
+
+    var reg = /^[1-9][0-9]{4,14}/;
+    alert(reg.test(qq));
+  </script>
+</head>
+<body>
+  
+</body>
+</html>

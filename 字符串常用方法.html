@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>字符串常用方法</title>
+  <script>
+    var ss = "*aweotttwiotttlskdjfttt";
+    alert(ss.indexOf("ttt")); //字符串第一次出现的索引 indexOf索引从0开始
+
+    alert(ss.indexOf("ttt",8)); //11 从索引值为8时开始找
+
+    alert(ss.lastIndexOf("ttt")); //20
+
+    alert((ss.indexOf("kk"))); //-1 不存在时返回-1
+
+    var email = "291774.8782qq.c@om";
+    if(email.indexOf("@")>0){
+      if(email.indexOf("@") == email.lastIndexOf("@")){
+        if(email.indexOf("@") + 1<email.indexOf(".",email.indexOf("@"))){
+          alert("这是个合法的邮箱");
+        }
+        else {
+          alert("@不在.的前面，不合法");
+        }
+      }
+      else {
+        alert("含有多个@符号，不合法");
+      }
+    }
+    else {
+      alert("没有@,不合法");
+    }
+  </script>
+</head>
+<body>
+  
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>数组中的常用方法</title>
+  <script>
+    var arr = ["赵四","张三",24,"王二"];
+    alert(arr.toString());
+    alert(arr.join("/"));
+    alert(arr.push("tangshiya"));
+    alert(arr);
+    alert(arr.pop());
+    alert(arr.unshift("唐诗雅"));
+    alert(arr.shift());
+    alert(arr.concat("你好啊")); //生成新数组
+    alert(arr.slice(0,2)); //赵四，张三
+    alert(arr.splice(0,2)); //赵四，张三
+    alert(arr); //24，王二
+    alert(arr.splice(2,0,"呵呵"));
+    alert(arr); //24,王二,呵呵 插入数据
+    alert(arr.splice(1,1,"lala"));
+    alert(arr); //24，lala,呵呵
+  </script>
+</head>
+<body>
+  
+</body>
+</html>

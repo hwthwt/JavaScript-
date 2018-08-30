@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>字符串常用方法</title>
+  <script>
+    var ss = "hello world 努力学习 abcdefg";
+    var s = ss.substr(5,5);
+    alert("s="+s); //worl
+    alert("ss="+ss);
+    alert(ss.substring(5,7));
+
+    var str = "hello world,hello kitty";
+    alert(str.match("hello")); //hello
+    alert(str.match("hhhhhh")); //null
+
+    alert(str.search("hello")); //0 
+    alert(str.replace("hello","haha"));
+    alert(str);
+
+  </script>
+</head>
+<body>
+  
+</body>
+</html>

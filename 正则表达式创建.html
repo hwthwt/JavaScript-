@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>正则表达式的创建</title>
+  <script>
+    var reg = new RegExp("hello");
+    var s = "hello world";
+    alert(reg.test(s)); //true
+    alert(reg.exec(s)); //hello
+
+    var reg = /hello/;
+    alert(reg.test(s));
+  </script>
+</head>
+<body>
+  
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Array:数组，属于引用类型</title>
+  <script>
+    var arr = new Array(10);
+    arr[0] = 5;
+    arr[1] = 6;
+    alert(arr[0] + "," + arr[1]);
+
+    var arr1 = [];
+    arr1[0] = 66;
+    alert(arr1[0]);
+
+    var arr2 = [1,2,3,4];
+    alert(arr2[3]);
+
+    var arr3 = [
+      {
+        name:"李四",
+        age:23,
+        fun:function(){
+          alert("哈哈");
+        }
+      },
+      [3,4,5,new Object()],
+      "hello",
+      new Array("html","css","javascript")
+    ];
+    arr3[0].fun();
+    alert(arr3[1]);
+    alert(arr3[3][0]); //html
+  </script>
+</head>
+<body>
+  
+</body>
+</html>

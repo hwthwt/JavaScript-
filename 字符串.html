@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>字符串</title>
+  <script>
+    var s = "abcdefg 013456789 ABCDEFGH 中国你好!";
+    for(var i = 1; i<=s.length-1; i++){
+      document.write("下标为" + i + "的字符是："+s.charAt(i) + "," +"下标为" + i + "的字符的编码是："+ s.charCodeAt(i) + "<br />");
+    }
+
+    var ss = String.fromCharCode(97,65,48,20320);
+    alert(ss);
+  </script>
+</head>
+<body>
+  
+</body>
+</html>

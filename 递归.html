@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>递归：函数自己调用自己</title>
+  <script>
+    function sum(num1,num2){
+      return num1 + num2;
+    }
+    function show(){
+      var result = sum(30,40);
+      alert(result);
+    }
+    show();
+    
+    function add(n){
+      if(n == 1){
+        return 1;
+      }
+      else{
+        return n + add(n-1);
+      }
+    }
+    var result1 = add(15);
+    alert(result1);
+
+  </script>
+</head>
+<body>
+  
+</body>
+</html>

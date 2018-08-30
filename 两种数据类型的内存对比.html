@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>基本类型和引用类型的对比</title>
+  <script>
+    function hum(obj){
+      var c = obj.a;
+      obj.a = obj.b;
+      obj.b = c;
+    }
+
+    var obj1 = {
+      a:5,
+      b:6
+    };
+    hum(obj1);
+    alert(obj1.a + " " + obj1.b);
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
