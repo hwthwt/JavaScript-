@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>正则表达式基础语法</title>
+  <script>
+    var reg = /(.*)\s(.*)/;
+    var s = "hello world";
+    alert(reg.test(s)); //true
+    alert(s.replace(reg,"$2 $1")); //world hello
+
+    var reg = /6(.*)6/;
+    var str = "study 6javascript6 6javascript6 6javascript6";
+    alert(str.replace(reg,"$1")); // study javascript6 6javascript6 6javascript
+
+    var reg = /6(.*?)6/;
+    var str = "study 6javascript6 6javascript6 6javascript6";
+    alert(str.replace(reg,"$1")); //study javascript 6javascript6 6javascript6;
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
