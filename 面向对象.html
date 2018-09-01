@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>面向对象和原型</title>
+    <script>
+        function Fun(name,age){
+            this.name = name;
+            this.age = age;
+            this.fun = function(){
+                alert(this.name + "," + this.age);
+            }
+        }
+        var str1 = new Fun("唐诗雅",24);
+        // alert(str1.name);
+        // alert(str1.age);
+        // str1.fun();
+
+        var str2 = new Fun("彭丹",24);
+        alert(str1.fun == str2.fun);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
