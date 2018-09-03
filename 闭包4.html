@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var obj = function () {
+            var name = "张三";
+            function show() {
+                return "我爱编程";
+            }
+            return {
+                go:function () {
+                    return name + show();
+                }
+            }
+        }();
+        alert(obj.go());
+    </script>
+</head>
+<body>
+</body>
+</html>

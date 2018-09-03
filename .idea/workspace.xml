@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d93e7aaa-5dd0-428b-b854-33858e4c8310" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/匿名函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/闭包.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/闭包1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/闭包2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面向对象和原型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/window.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/window.open.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/闭包4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/面向对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/面向对象.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,14 +52,43 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="2083351988">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="825" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="825" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/闭包2.html">
+        <entry file="file://$PROJECT_DIR$/window.open.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="104">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -90,6 +116,10 @@
         <option value="$PROJECT_DIR$/闭包.html" />
         <option value="$PROJECT_DIR$/闭包2.html" />
         <option value="$PROJECT_DIR$/闭包1.html" />
+        <option value="$PROJECT_DIR$/闭包3.html" />
+        <option value="$PROJECT_DIR$/闭包4.html" />
+        <option value="$PROJECT_DIR$/window.open.html" />
+        <option value="$PROJECT_DIR$/window.html" />
       </list>
     </option>
   </component>
@@ -99,11 +129,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="129" />
-    <option name="y" value="23" />
-    <option name="width" value="1148" />
+    <option name="y" value="22" />
+    <option name="width" value="1149" />
     <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -114,8 +147,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="JavaScript-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScript-" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript教学视频案例" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript教学视频案例" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -130,7 +163,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.chrisrm.idea.config" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,16 +195,17 @@
       <workItem from="1535788033548" duration="303000" />
       <workItem from="1535868646988" duration="7722000" />
       <workItem from="1535938482185" duration="153000" />
+      <workItem from="1535939779079" duration="6997000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16638000" />
+    <option name="totallyTimeSpent" value="23635000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="129" y="23" width="1148" height="777" extended-state="0" />
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22005324" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13784955" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -273,10 +307,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/闭包3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/闭包2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="494">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/闭包4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/window.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/window.open.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>闭包：块级作用域</title>
+  <script>
+    function fun(){
+      for(var i =0;i<=3;i++){
+        // alert(i);
+      }
+      // alert(i); //4
+      var i;
+      // alert(i); //4
+    }
+    fun();
+
+    //使用构造函数传参访问私有变量
+      function Person(value) {
+          var user = value;
+          this.getUser = function () {
+              return user;
+          }
+          this.setUser = function (v) {
+              user = v;
+          }
+      }
+      var person = new Person("hello");
+      // alert(person.getUser()); //hello
+      person.setUser("hai");
+      // alert(person.getUser()); //hai
+
+    //静态私有变量(所有对象共享的局部变量)
+    (function () {
+        var country = '';
+        //全局Person类型
+        Person = function (value) {
+            country = value;
+            Person.prototype.setCountry = function (c) {
+                country = c;
+            };
+            Person.prototype.getCountry = function () {
+                return country;
+            }
+        }
+    })();
+    var person1 = new Person("hana");
+    alert(person1.getCountry()); //hana
+    var person2 = new Person("lana");
+    alert(person2.getCountry()); //lana
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
