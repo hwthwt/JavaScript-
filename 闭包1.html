@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function array() {
+            var arr = [];
+            for (var i = 1;i<4;i++) {
+                arr[i] = (function (num) {
+                    return function () {
+                        return num;
+                    }
+                })(i);
+            }
+            return arr;
+        }
+        var a = array();
+        for(var j = 1;j<a.length;j++){
+           // alert(a[j]()
+        }
+        function arr(){
+            var a1=[];
+            for(var x=0;x<3;x++){
+                a1[x]=(function (num){
+                    return num;
+                })(x);
+            }
+            return a1;
+        }
+        var b=arr();
+        for(var x=0;x<b.length;x++){
+            alert(b[x]);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

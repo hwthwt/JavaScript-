@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function Test(age) {
+            this.age =age;
+            this.family = ["爸爸","妈妈"];
+        }
+        function Util(age) {
+            Test.call(this,age);
+        }
+        var u = new Util(24);
+        alert(u.age);
+        u.family.push("哥哥");
+        alert(u.family);
+        var u1 = new Util(25);
+        alert(u1.family);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

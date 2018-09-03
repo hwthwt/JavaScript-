@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function add() {
+            var age = 10;
+            return function fun(){
+                return age++;
+            }
+        }
+        var s=add();
+        alert(s());
+        alert(s());
+    </script>
+</head>
+<body>
+
+</body>
+</html>

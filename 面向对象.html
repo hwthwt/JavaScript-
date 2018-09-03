@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>面向对象和原型</title>
     <script>
+
+        var obj = {
+            country:"中国"
+        };
+    
         function Fun(name,age){
             this.name = name;
             this.age = age;
@@ -13,13 +18,16 @@
                 alert(this.name + "," + this.age);
             }
         }
+        Fun.prototype = obj;
         var str1 = new Fun("唐诗雅",24);
         // alert(str1.name);
         // alert(str1.age);
         // str1.fun();
-
+        
         var str2 = new Fun("彭丹",24);
-        alert(str1.fun == str2.fun);
+        alert(str1.country);
+        alert(Fun.prototype);
+
     </script>
 </head>
 <body>
