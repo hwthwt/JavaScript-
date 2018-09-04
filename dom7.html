@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+            var div = document.getElementById("div1");
+            var arr = div.children;
+            // alert(arr.length);
+            // alert(arr[0].innerHTML);
+            // alert(arr[1].innerHTML);
+            // alert(arr[2].innerHTML);
+            var p = div.children[0].cloneNode(true); //复制元素之间的内容
+            div.appendChild(p); //<p>html</p>
+            div.removeChild(arr[0]);
+        }
+    </script>
+</head>
+<body>
+    <div id="div1">
+        <p>html</p>
+        <p>css</p>
+        <p>javascript</p>
+    </div>
+</body>
+</html>
