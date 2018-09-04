@@ -4,11 +4,34 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <script>
-        // open("http://www.baidu.com/","_blank");
-        open("window.html");
+    // alert(location.protocol);
+    // alert(location.hostname);
+    // alert(location.port);
+    // alert(location.pathname);
+    // alert(location.hash);
+    function getSearch() {
+        var arrg = [];
+        var a = location.search.length>0?location.search.substring(1):"";//name=lisi&age=23
+        var arr1 = a.split("&");
+        for (var i = 0;i < arr1.length;i++){
+            var arr2 = arr1[i].split("=");
+            var key = arr2[0];
+            var value = arr2[1];
+            arrg[key] = value;
+        }
+        return arrg;
+    }
+    var search = getSearch();
+    alert(search['name']);
+    alert(search['age']);
+
+    function abs() {
+        location.href = "http://www.baidu.com";
+    }
+
     </script>
 </head>
 <body>
-
+    <a href="javascript:abs()">点击</a>
 </body>
 </html>
