@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>根据id查找</title>
+    <script>
+        window.onload = function(){
+            var obj = document.getElementById("div1");
+            alert(typeof obj);
+            var a = document.getElementsByTagName("div");
+            // alert(obj.tagName); //DIV
+            // alert(obj.id); //div1
+            // alert(obj.title); //标题
+            // alert(obj.className); //js
+            // alert(obj.style); //得到的是样式对象
+            // alert(obj.style.color); // red
+            // alert(obj.style.color = "blue"); //blue
+            // alert(obj.innerHTML); //得到开始标签和结束标签之间的内容
+        }
+    </script>
+</head>
+<body>
+    <div id="div1" title="标题" class="js" style="color: #ff0000;width: 100px">html</div>
+    <div id="div2">css</div>
+    <div id="div3">javascript</div>
+</body>
+</html>

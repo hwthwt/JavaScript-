@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+            var obj = document.getElementById("div1");
+            // alert(obj.childNodes.length); //7
+            var arr = getNodes(obj.childNodes);
+            alert(arr.length);
+        };
+
+        //把空白文本节点对象忽略掉
+        //参数接受的是所有的子节点对象
+        function getNodes(nodes) {
+            var arr = [];
+            for(var i = 0;i < nodes.length; i++){
+                if(nodes[i].nodeType ==3 && /^\s+/.test(nodes[i].nodeValue)){
+                    continue;
+                }
+                else {
+                    arr.push(nodes[i]);
+                }
+            }
+            return arr;
+        }
+    </script>
+</head>
+<body>
+    <div id="div1" title="标题" class="js">
+        <em>javascript学习</em>
+        <em>hello</em>
+        <em>你好!</em>
+    </div>
+</body>
+</html>

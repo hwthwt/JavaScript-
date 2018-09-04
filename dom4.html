@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+            var arr =document.getElementById("div1");
+            // alert(arr.nodeName); //div
+            // alert(arr.nodeType); //1
+            // alert(arr.nodeValue) ; //null
+            // alert(arr.innerHTML);
+            // var obj = arr.childNodes;
+            // alert(obj); //nodeList
+            // alert(obj.length); //3
+            // alert(obj[0].nodeType); //3
+            // alert(obj[0].nodeValue); //javascript学习
+            // alert(obj[0].nodeName); //#text
+            // alert(obj[1].nodeName); //em
+            // alert(obj[1].nodeType); //1
+            // alert(obj[1].nodeValue); //null
+            // alert(arr.firstChild.nodeValue);
+            // alert(arr.lastChild.nodeValue);
+            // alert(arr.attributes.length); //3
+            // alert(arr.attributes[0]); //Attr
+            // alert(arr.attributes[0].nodeName); //id
+            // alert(arr.attributes[0].nodeValue); //div1
+            // alert(arr.attributes[0].nodeType); //2
+            // alert(arr.attributes[2].nodeName); //class
+            alert(arr.attributes["title"].nodeValue); //标题
+        }
+    </script>
+</head>
+<body>
+    <div id="div1" title="标题" class="js">
+        javascript学习<em>hello</em>你好！
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>根据TagName标签名去查找元素</title>
+    <script>
+        window.onload = function () {
+            var obj = document.getElementsByTagName("li");
+            // alert(typeof obj); //返回的是数组对象，数组包含了所有名称为li的元素节点对象
+            // alert(obj.length); //3
+            // alert(obj[0].tagName); //LI
+            // alert(obj.item(0).innerHTML); //html
+        };
+        //得到body节点对象
+        window.onload = function () {
+            var arr = document.getElementsByTagName("body")[0];
+            // alert(arr.tagName); //BODY
+        };
+
+        //得到所有元素节点
+        window.onload = function () {
+            var arr1 = document.getElementsByTagName("*");
+            // alert(arr1.length); //10
+            // alert(arr1[0].tagName); //html
+            // alert(arr1[1].tagName); //head
+            // alert(arr1[2].tagName); //meta
+            // alert(arr1[3].tagName); //title
+            // alert(arr1[4].tagName); //script
+            // alert(arr1[5].tagName); //body
+            // alert(arr1[6].tagName); //ul
+            // alert(arr1[7].tagName); //li
+            // alert(arr1[8].tagName); //li
+            // alert(arr1[9].tagName); //li
+        }
+
+
+    </script>
+</head>
+<body>
+    <ul>
+        <li>hml</li>
+        <li>css</li>
+        <li>javascript</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>元素查找：getElementByName()</title>
+    <script>
+        window.onload = function () {
+            var name = document.getElementsByName("sex");
+            // alert(name[0].value);
+        };
+
+        //getAttribute
+        window.onload = function () {
+            var arr = document.getElementById("div1");
+            // alert(arr.id); //div1
+            // alert(arr.aa); //undefined
+            // alert(arr.getAttribute("aa")); //hello
+            alert(arr.className);
+        }
+    </script>
+
+</head>
+<body>
+
+    <input type="text" value="请输入你的信息" name="input1" />
+    <br />
+    <br />
+    <input type="radio" name="sex" value="man"/>男
+    <input type="radio" name="sex" value="woman"/>女
+    <div id="div1" aa="hello" class="jss">测试</div>
+
+
+
+</body>
+</html>
