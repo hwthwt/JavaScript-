@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+            var p = document.createElement("p");
+            var arr = document.getElementById("div1");
+            arr.appendChild(p);
+            var text = document.createTextNode('大家好');
+            p.appendChild(text);
+        }
+    </script>
+</head>
+<body>
+    <div id="div1">
+        javascript学习
+    </div>
+</body>
+</html>
