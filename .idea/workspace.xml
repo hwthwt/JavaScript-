@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d93e7aaa-5dd0-428b-b854-33858e4c8310" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dom1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dom2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dom3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dom4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dom5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dom6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/浏览器检测1.html" beforeDir="false" afterPath="$PROJECT_DIR$/浏览器检测1.html" afterDir="false" />
-    </list>
+    <list default="true" id="d93e7aaa-5dd0-428b-b854-33858e4c8310" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -59,7 +50,7 @@
     <session id="2083351988">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="2" />
@@ -77,12 +68,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2994" />
+          <entry key="html" value="3035" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2994" />
+          <entry key="HTML" value="3035" />
         </counts>
       </usages-collector>
     </session>
@@ -92,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dom6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="520">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -208,16 +199,15 @@
       <workItem from="1535938482185" duration="153000" />
       <workItem from="1535939779079" duration="6997000" />
       <workItem from="1535975898281" duration="3509000" />
-      <workItem from="1536023884372" duration="12477000" />
+      <workItem from="1536023884372" duration="12692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39621000" />
+    <option name="totallyTimeSpent" value="39836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11224892" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -407,8 +397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dom6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="520">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
