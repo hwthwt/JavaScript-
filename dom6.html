@@ -10,6 +10,14 @@
             arr.appendChild(p);
             var text = document.createTextNode('大家好');
             p.appendChild(text);
+            var a = document.createElement('a');
+            arr.parentNode.insertBefore(a,arr);
+
+            var span = document.createElement("span");
+            arr.parentNode.appendChild(span);
+
+            var span1 =document.createElement("span");
+            arr.insertBefore(span1,p);
         }
     </script>
 </head>
